@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="x-icon" href="images/Sun.png" />
+    <link rel="stylesheet" href="css/checkout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Checkout page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="title">
+          <h1>Checkout Page</h1>
+        </div>
+        <div>
+          <form>
+            <label for="name">
+              <p>Name on Card</p>
+              <input name="name" type="text" placeholder="Enter your name" required/>
+            </label>
+            <label for="cardnumber">
+              <p>Card Number</p>
+              <input name="cardnumber" type="text" placeholder="Enter your card number required"/>
+            </label>
+            <div class="numbers">
+              <div>
+                <label for="expiration">
+                  <p>Expiration Date</p>
+                  <input type="number" name="expiration" min="1" max="12" placeholder="MM"/>
+                  <input type="number" name="expiration" min="2025" max="2035" placeholder="YYYY"/>
+                </label>
+              </div>
+              <div class="cvv">
+                <label for="cvv">
+                  <p>CVV</p>
+                  <input name="cvv" type="password" placeholder="CVV" required/>
+                </label>
+              </div>
+            </div>
+            <a href="thankyou.html">
+              <input type="submit" value="Pay" title="we need money"/>
+            </a>
+          </form>
+        </div>
+        <div class="navbuttons">
+          <button><a href="cart.html">Cart</a></button>
+          <button title><a href="product.html">Product page</a></button>
+        </div>
+    </div>
+</body>
+</html>

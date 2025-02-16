@@ -1,0 +1,46 @@
+.content{
+    display: flex;
+    background-color: #ffffffe6;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 90%;
+    border-radius: 5px;
+    padding: 2rem;
+}
+h1{
+    /* consider adding this to style */
+    text-align: center;
+    margin: 10px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-top: #000 1px solid;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.name{
+    font-size: larger;
+    align-self: center;
+}
+.total{
+    font-size: larger;
+    font-weight: bold;
+    color: #af1e1e;
+}
+.price{
+    transition: color 0.5s linear;
+}
+.price:hover{
+    color: #25af1e;
+}
+img:hover{
+    transform: scale(1.1);
+}
