@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link href="Sun.png" rel="icon" />
+
+    <title>LOGIN</title>
+  </head>
+  <body
+    class="bg-linear-35 from-sky-400 to-sky-200 flex justify-center items-center min-h-screen"
+  >
+    <div class="bg-sky-50 p-8 rounded-lg shadow-2xl max-w-sm w-full">
+      <img src="Sun.png" alt="logo" class="w-45 h-45 mx-auto mb-4" />
+      <h2 class="text-center text-3xl text-neutral-700 mb-6 font-bold">
+        LOGIN
+      </h2>
+      <form>
+        <div class="mb-4">
+          <label class="block text-sm text-stone-500 mb-2" for="email"
+            >Email
+          </label>
+          <input
+            class="w-full px-3 py-2 bg-white border-neutral-700 rounded-md text-stone-500 focus:outline-none focus:ring-2 focus:ring-sky-200"
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            id=""
+          />
+        </div>
+        <div class="mb-6">
+          <label class="block text-sm text-stone-500 mb-2" for="password"
+            >Password
+          </label>
+          <input
+            class="w-full px-3 py-2 bg-white border-gray-700 rounded-md text-stone-500 focus:outline-none focus:ring-2 focus:ring-sky-200"
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+            id=""
+          />
+        </div>
+        <button
+          type="submit"
+          class="w-full bg-sky-400 text-white py-2 rounded-md hover:bg-sky-500 shadow-2xl"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
